@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500&display=swap');
+
+footer, [data-testid="stToolbar"] { visibility: hidden; }
+.block-container { padding-top: 2rem; max-width: 1150px; }
+html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
+
+.hero {
+  padding: 2.4rem 2.2rem; border-radius: 22px; margin-bottom: 1.6rem;
+  background:
+    radial-gradient(600px 220px at 85% 0%, rgba(255,176,32,.22), transparent 70%),
+    radial-gradient(500px 240px at 0% 100%, rgba(70,120,255,.18), transparent 70%),
+    #101828;
+  border: 1px solid rgba(255,255,255,.08);
+}
+.hero .tag {
+  display: inline-block; font-size: .72rem; letter-spacing: .14em; font-weight: 600;
+  color: #FFB020; border: 1px solid rgba(255,176,32,.4);
+  padding: .25rem .7rem; border-radius: 999px; margin-bottom: .9rem;
+}
+.hero h1 {
+  font-family: 'Space Grotesk', sans-serif; font-size: 2.7rem; line-height: 1.1;
+  margin: 0 0 .6rem 0; color: #fff;
+}
+.hero h1 span { color: #FFB020; }
+.hero p { color: #A9B4C8; font-size: 1.05rem; max-width: 620px; margin: 0; }
+
+.card {
+  background: #121A2B; border: 1px solid rgba(255,255,255,.08);
+  border-radius: 16px; padding: 1.1rem 1.3rem; margin-bottom: 1rem;
+}
+.card .label {
+  font-size: .72rem; letter-spacing: .12em; text-transform: uppercase; color: #8E9BB3;
+}
+.card .value {
+  font-family: 'Space Grotesk', sans-serif; font-size: 1.9rem; font-weight: 700; margin-top: .2rem;
+}
+.badge {
+  display: inline-block; padding: .3rem .9rem; border-radius: 999px;
+  font-weight: 600; font-size: .95rem;
+}
+.bar-row { margin: .55rem 0; }
+.bar-top { display: flex; justify-content: space-between; font-size: .88rem; color: #C9D2E3; }
+.bar { height: 8px; border-radius: 99px; background: rgba(255,255,255,.08); margin-top: .3rem; }
+.bar > span { display: block; height: 100%; border-radius: 99px; }
+
+.det {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: .7rem 0; border-bottom: 1px solid rgba(255,255,255,.06);
+}
+.det:last-child { border-bottom: none; }
+.det .name { font-weight: 600; text-transform: capitalize; }
+.det .meta { color: #8E9BB3; font-size: .85rem; }
+.chip {
+  background: rgba(255,176,32,.12); color: #FFB020;
+  padding: .2rem .6rem; border-radius: 8px; font-size: .82rem; font-weight: 600;
+}
+.empty { text-align: center; padding: 2.5rem 1rem; color: #8E9BB3; }
